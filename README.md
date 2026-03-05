@@ -30,7 +30,7 @@ The prompt is simply: "Read [SPEC-v1.txt](./SPEC-v1.txt), implement it, and make
 | Dynamic | Python, Ruby, JavaScript, Perl, Lua |
 | Dynamic + type checker | Python/mypy, Ruby/Steep |
 | Static | TypeScript, Go, Rust, C, Java |
-| Functional | Scheme (dynamic), OCaml (static), Haskell (static) |
+| Functional | Scheme (dynamic), OCaml (static), Haskell (static), Clojure (dynamic, JVM) |
 
 Python/mypy writes fully type-annotated Python verified with `mypy --strict`. Ruby/Steep writes RBS type signatures verified with `steep check`. These allow direct comparison of type-checking overhead within the same language.
 

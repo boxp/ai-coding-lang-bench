@@ -36,6 +36,7 @@ LANGUAGES = {
   'scheme'      => { exts: %w[scm],    version_cmd: 'guile --version | head -1' },
   'ocaml'       => { exts: %w[ml mli], version_cmd: 'ocaml --version' },
   'haskell'     => { exts: %w[hs],     version_cmd: 'ghc --version' },
+  'clojure'     => { exts: %w[clj edn], version_cmd: 'clojure --version' },
 }
 
 TRIALS = 3

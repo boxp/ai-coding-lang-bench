@@ -55,7 +55,7 @@ python3 plot.py                                       # Generate graphs
 
 ## Supported Languages (LANGUAGES hash in benchmark.rb)
 
-rust, go, c, typescript, javascript, java, perl, python, python/mypy, ruby, ruby/steep, lua, scheme, ocaml, haskell
+rust, go, c, typescript, javascript, java, perl, python, python/mypy, ruby, ruby/steep, lua, scheme, ocaml, haskell, clojure
 
 To add a language, add an entry to the `LANGUAGES` hash. Tests just call `./minigit`, so the implementation only needs to produce an executable with that name.
 
